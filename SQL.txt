@@ -1,0 +1,24 @@
+create table customer
+(
+cid number(3),
+cname varchar2(15),
+contact number(),
+varchar2(5),ALT+F4
+gender varchar2(1)
+)
+
+insert into employee values(1,'pradeep','50', 'man','m') 
+
+create table laptop
+(
+compid number(2) primary key,
+company varchar2(10),
+model varchar2(15),
+price number(7),
+processor varchar2(5),
+storage varchar2(5)
+);
+
+
+SELECT * FROM laptop
+WHERE Company='HP';

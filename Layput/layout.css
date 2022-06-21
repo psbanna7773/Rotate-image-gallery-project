@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#body{
+    background-color: black;
+}
+
+.nav{
+    background-color: aliceblue;
+    margin-top: 15px;
+    display: flex;
+}
+
+#element{
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: var(--elementcolor, black);
+    transition: 0.3s;
+}
+
+#element:hover{
+    color: rgb(31, 123, 123);
+}
+
+.atri{
+    transition: 0.5s;
+    margin-left: 35px;
+}
+
+.atri:hover{
+    --elementcolor: white;
+    background-color: black;
+}
+
+#pic{
+    margin-top: 100px;
+}
+
+#heading{
+    color: white;
+    font-size: 50px;
+    margin-top: 120px;
+    transition: 0.4s;
+}
+
+#heading:hover{
+    transition: 0.4s;
+    letter-spacing: 0.2em;
+    color: red;
+}
+
+#about{
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.about{
+    background-color: grey;
+    height: 300px;
+    margin: 10px;
+    border-radius: 17px 17px 17px 17px;
+
+}
+
+.about p{
+    margin: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+#hulk{
+    color: red;
+    transition: 0.4s;
+}
+
+#hulk:hover{
+    color:blue;
+}
+
+#achive{
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.achive{
+    background-color: grey;
+    height: 300px;
+    margin: 10px;
+    border-radius: 17px 17px 17px 17px;
+}
+
+#carouselimg{
+    height: 300px;
+    width: 200px;
+}
+
+#contact{
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.contact{
+    height: 300px;
+    margin: 10px;
+    border-radius: 17px 17px 17px 17px;
+    display: block;
+    /* y-axis */
+    align-items: center;
+    /* x-axis */
+    justify-content: center; 
+}
+
+.contact i{
+    color: aliceblue;
+    font-size: 22px;
+}

@@ -1,0 +1,7 @@
+.navbar {
+    display: flex;
+    background-color: grey;
+    margin-top: 12px;
+    float: right;
+text-decoration: none;
+}

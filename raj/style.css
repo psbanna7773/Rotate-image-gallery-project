@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Poppins:ital,wght@0,200;0,300;0,500;0,700;1,200;1,300&family=Roboto:wght@100;300&display=swap');
+
+.header1 {
+    float: left;
+    display: inline-flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: small,black;
+    color: black;
+    text-transform: none;
+
+}
+
+.header1 a{
+    color: black;
+    text-transform: none;
+    
+}
+
+.img-micro{
+    display: inline-flexbox;
+    float: left;
+    padding-left: 80px;
+    
+
+}
+
+.header2 {
+    float: right;
+    display: inline-flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: small,black;
+    
+    
+}
+
+.header2 a{
+    color: black;
+    text-transform: none;
+
+}
+.img1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1300px;
+    
+    
+}

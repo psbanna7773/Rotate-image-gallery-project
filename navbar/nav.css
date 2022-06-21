@@ -1,0 +1,306 @@
+.navbar {
+    display: flex;
+   flex-wrap: wrap; 
+   justify-content: space-between;
+   background-color:grey;
+   padding: 5px;
+   text-decoration-style: none;
+   /* margin-top: 2px; */
+   text-decoration: none;
+   cursor: pointer;
+   border-radius:12px;  
+   margin-bottom: 5px;
+   background:linear-gradient(-45deg, #ee7752,#e73c7e,#23a6d5,#23d5ab);
+   animation: gradient 15s ease infinite;
+
+   /* border: 10px solid;
+  /* simplified from preview image */
+  /* border-image: linear-gradient(to right, purple, pink) 1; */ */
+}
+
+.list{
+    style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: center;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.h1:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    color: red;
+    transition: all 0.3s ease-in-out;
+    background-color:black;
+    text-size-adjust: 10px;
+    size: 10px;
+    margin-top:2px;
+    border: 10px solid;
+    /* simplified from preview image */
+    border-image: linear-gradient(to right, purple, pink) 1;    
+}
+.h2:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    color: red;
+    transition: all 0.3s ease-in-out;
+    background-color:black;
+    text-size-adjust: 10px;
+    size: 10px;  
+    border: 10px solid;
+    /* simplified from preview image */
+    border-image: linear-gradient(to right, purple, pink) 1;
+}
+
+.h1{
+    background-color:grey;
+    
+}
+
+.h2{
+    background-color:grey;
+}
+
+.h3{
+    background-color:grey;
+}
+
+.h4{
+    background-color:grey;
+}
+
+.h5{
+    background-color:grey;
+}
+.h3:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    color: red;
+    transition: all 0.3s ease-in-out;
+    background-color:black;
+    text-size-adjust: 10px;
+    size: 10px;  
+    border: 10px solid;
+    /* simplified from preview image */
+    border-image: linear-gradient(to right, purple, pink) 1;
+}
+
+
+
+.h4:hover:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    font: 12px;
+    color: red;
+    transition: all 0.3s ease-in-out;
+    background-color:black;
+    text-size-adjust: 10px;
+    size: 10px;  
+    border: 10px solid;
+    /* simplified from preview image */
+    border-image: linear-gradient(to right, purple, pink) 1;
+
+}
+
+
+.h5:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    color: red;
+    transition: all 0.3s ease-in-out;
+    background-color:black;
+    text-size-adjust: 10px;
+    size: 10px;  
+    border: 10px solid;
+    /* simplified from preview image */
+    border-image: linear-gradient(to right, purple, pink) 1;
+}
+
+.logo::after:hover{
+    border-radius: 15px;
+transition: all 0.3s ease-in-out;
+}
+
+.heading{
+    background-color: black;
+}
+
+.image {
+    margin: 12px;
+    border-radius: 50px;
+    align-items: flex-end;
+    padding: 10px;
+    box-shadow: black;
+    cursor: pointer;
+    background:linear-gradient(-45deg, #ee7752,#e73c7e,#23a6d5,#23d5ab);
+    animation: gradient 15s ease infinite;
+}
+
+
+@keyframes gradient{
+0% {
+    background-position: 0% 50%;
+}
+
+50%{
+    background-position: 100% 50%
+}
+
+100% {
+    background-position: 0% 50%;
+}
+}
+
+.m1:hover{
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    transform: rotate(-360deg);
+}
+
+.m2:hover{
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    transform: rotate(-360deg);
+}
+
+.m3:hover{
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    transform: rotate(-360deg);
+}
+
+.m4:hover:hover{
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+    transform: rotate(-360deg);
+}
+
+
+
+
+
+
+/* footer */
+#footer {
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    border-radius: 15px;
+}
+#footer .footer{
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+#footer h2{
+    color: white;
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer .social-icon{
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 30px;
+}
+#footer .social-item {
+    height: 90px;
+    width: 90px;
+    margin: 0 5px;
+}
+#footer .social-item img {
+    filter: grayscale(1);
+    transition: .3s ease filter;
+}
+#footer .social-item:hover img{
+    filter: grayscale(0);
+}
+#footer p{
+    color: white;
+    font-size: 1.3rem;
+}
+/* end footer */
+
+/* keyframe */
+@keyframes text_reveal_box{
+    50%{
+        width: 100%;
+        left: 0;
+    }
+    100% {
+        width: 0;
+        left: 100%;
+    }
+}
+@keyframes text_reveal {
+    100%{
+        color: white;
+    }
+}@keyframes text_reveal_name {
+    100%{
+        color: crimson;
+        font-weight: 500;
+    }
+}
+/* end keyframe */
+
+/* media query for tablet */
+@media only screen and (min-width:768px){
+    .cta{
+        font-size: 2,5rem;
+        padding: 20px 60px;
+    }
+    h1.section-title {
+        font-size: 6rem;
+    }
+
+    /* hero */
+    #hero h1{
+        font-size: 7rem;
+    }
+    /* hero */
+
+    /* services section */
+#services .service-bottom .service-item{
+    flex-basis: 45%;
+    margin: 2.5%;
+}
+    /* end services */
+
+/* project */
+#projects .project-item {
+    flex-direction: row;
+}
+#projects .project-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+#projects .project-item{
+    height: 400px;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    object-fit: contain;
+}
+#project .all-projects .project-info{
+    height: 100%;
+}
+#project .all-projects .project-img{
+    height: 100%;
+}
+/* end project  */
+}
+/* end media query for tablet */
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+constraint
+1.unique
+2.primary key
+create table emp
+(
+empno number(2)primary key,
+ename varchar2(15),
+salary number(5)
+)
+3.not null
+4.foreign key
+5.check
+6.default
+
+
+
+
+create table employees
+(sid number(2) primary key,
+sname varchar2(15),
+office varchar2(10),
+hobby varchar2(15),
+salary number(2),
+gender varchar2(1) )
